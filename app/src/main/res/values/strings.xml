@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">aria_demo</string>
+
+    <string name="download_stop">stop</string>
+    <string name="download_start">start</string>
+    <string name="download_pause">pause</string>
+    <string name="download_resume">resume</string>
+    <string name="re_start">restart</string>
+    <string name="toast_fail">download fail</string>
+    <string name="toast_success">download success</string>
+    <string name="download_cancel">cancel</string>
+
+</resources>

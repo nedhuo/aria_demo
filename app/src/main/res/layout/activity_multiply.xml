@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_allStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Start" />
+
+        <Button
+            android:id="@+id/btn_allCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_start"
+            android:layout_alignStart="@id/btn_start"
+            android:layout_alignEnd="@id/btn_start"
+            android:text="All Cancel" />
+    </LinearLayout>
+</LinearLayout>
